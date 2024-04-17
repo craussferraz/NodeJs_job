@@ -1,4 +1,4 @@
-![Diagrama da Arquitetura](/arquitetura nodeJS.png)
+![Diagrama da Arquitetura](imagens/arquitetura.png)
 # Arquitetura de Aplicação NodeJS no AWS Fargate
 
 ## CI/CD com GitHub Actions
