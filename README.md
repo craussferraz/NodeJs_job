@@ -1,3 +1,6 @@
+# Atividade proposta e decisão de arquitetura.
+A atividade proposta foi criar apenas uma ambiente para hospedar a aplicação NodeJS, por isso não foi avaliado a criação de armazenamento externo, seja S3, Amazon RDS ou Amazon DynamoDB. então o escopo foi limitado ao serviços de amazon Route 53, para resolver o DNS, um ambiente Amazon ECS fargate e Amazon Elastic Container Registry(ECR), Descidir usar o Github Actions para fazer build da imagem da aplicação NodeJs e registar a imagem no ECR. E por fim, para aproveitar recursos da nuvem aws decidi me deter ao monitoramento usando o  AWS CloudWatch.
+
 ![Diagrama da Arquitetura](imagens/arquitetura.png)
 # Arquitetura de Aplicação NodeJS no AWS Fargate
 
